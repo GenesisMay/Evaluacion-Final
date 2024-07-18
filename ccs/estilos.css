@@ -43,10 +43,6 @@ button {
     width: 100%;
 }
 
-button:hover {
-    background: #4a5561;
-}
-
 ul {
     background-color: rgb(195, 195, 245);
     list-style: none;
