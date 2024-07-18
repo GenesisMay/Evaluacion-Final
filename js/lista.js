@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         deleteBtn.addEventListener('click', () => {
             listaTarea.removeChild(li);
         });
-
+        
         li.appendChild(deleteBtn);
         listaTarea.appendChild(li);
         textoTarea.value = '';
