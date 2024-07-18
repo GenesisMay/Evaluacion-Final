@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function añadirTarea() {
         const tareaTexto = textoTarea.value.trim();
         if (tareaTexto === '') {
-            alert('Por favor ingrese una tarea');
+            alert('Esta vacio ingrese una tarea');
             return;
         }
 
