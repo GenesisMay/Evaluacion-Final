@@ -22,10 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
             listaTarea.removeChild(li);
         });
 
-        li.addEventListener('dblclick', () => {
-            li.classList.toggle('completed');
-        });
-
         li.appendChild(deleteBtn);
         listaTarea.appendChild(li);
         textoTarea.value = '';
